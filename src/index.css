@@ -1,0 +1,173 @@
+:root {
+  font-size: 16px;
+  --board-width: 27rem;
+  --cell-size: calc(var(--board-width) / 9 - 2px);
+}
+
+input[type='number']::-webkit-inner-spin-button,
+input[type='number']::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input:invalid {
+  color: red;
+}
+
+input:disabled {
+  color: black;
+  cursor: default;
+}
+
+input:disabled:hover {
+  color: black;
+  cursor: default;
+  background-color: white;
+}
+
+.game-board {
+  width: var(--board-width);
+}
+
+.board-row {
+  display: block;
+}
+
+.square {
+  float: left;
+  font-family: Comic Sans MS;
+  width: var(--cell-size);
+  height: var(--cell-size);
+  line-height: var(--cell-size);
+  font-size: 2rem;
+  text-align: center;
+  margin: -1px;
+  color: blue;
+  background-color: white;
+  border: 1px solid black;
+}
+
+.square:hover {
+  cursor: pointer;
+  background-color: #dbdbdb;
+}
+
+.block {
+  float: left;
+  margin: -2px;
+  border: 2px solid black;
+}
+
+.initial {
+  font-family: Times;
+}
+
+.conflict {
+  color: #f43a3a;
+  background-color: pink;
+}
+
+.conflict:not(.initial) {
+  background-color: #ffa5a5;
+}
+
+.game {
+  margin-top: 10vh;
+}
+
+.game-board {
+  position: relative;
+  margin: auto;
+}
+
+.game-menu {
+  position: absolute;
+  top: 1.5rem;
+  right: -10rem;
+  width: 17rem;
+  text-align: center;
+  padding: 5px;
+}
+
+Button {
+  background-color: lightblue;
+}
+
+Button:hover {
+  background-color: navy;
+  color: white;
+}
+
+.validation {
+  margin-top: 1rem;
+  margin-right: 1rem;
+}
+
+.status {
+  position: absolute;
+  top: 34.75rem;
+  left: 14rem;
+  font-size: 1.5rem;
+  color: blue;
+}
+
+.instructions {
+  margin-top: 1rem;
+}
+
+.title {
+  text-align: center;
+}
+
+.github-link {
+  position: absolute;
+  bottom: 1rem;
+  right: 1rem;
+}
+
+/*  */
+.container {
+  width: 600px;
+  height: auto;
+}
+
+.row {
+  position: relative;
+  display: block;
+  width: 100%;
+  height: 40px;
+  /* border-bottom: 1px solid #afafaf; */
+}
+
+.name {
+  position: relative;
+  display: inline-block;
+  width: 75%;
+  line-height: 45px;
+}
+
+.score {
+  position: relative;
+  display: inline-block;
+  width: 25%;
+}
+
+.leaderboard {
+  position: fixed;
+  left: 5%;
+  width: 250px;
+}
+
+.btn-login {
+  display: block;
+  width: 100%;
+}
+.generate-btn {
+  border: 1px solid #000000f2 !important;
+}
+.generate-btn:hover {
+  background-color: #6c757d !important;
+}
+.disabled:hover {
+  background-color: transparent !important;
+}
