@@ -216,7 +216,7 @@ export default class Board extends React.PureComponent {
   render() {
     return (
       <div>
-        <h2 className='title'>Sudoku SkyDB</h2>
+        <h2 className='title'>SkyDoku</h2>
         {this.createBoard()}
       </div>
     );
