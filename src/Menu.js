@@ -42,7 +42,7 @@ export default class Menu extends React.Component {
             >
               <option value='17'>Extreme</option>
               <option value='33'>Medium</option>
-              <option value='80'>Beginner</option>
+              <option value='60'>Beginner</option>
             </FormControl>
           </FormGroup>
         </form>

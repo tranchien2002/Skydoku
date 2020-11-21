@@ -171,3 +171,15 @@ Button:hover {
 .disabled:hover {
   background-color: transparent !important;
 }
+
+#confetti {
+  position: absolute;
+  top: 0;
+  width: 50vw;
+  height: 50vh;
+  left: -67px;
+  z-index: -1;
+}
+.z-index-1000 {
+  z-index: 1000 !important;
+}

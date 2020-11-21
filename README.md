@@ -1,9 +1,29 @@
-# Simple React Sudoku Generator.
+<p align="center">
+    <h2 align="center">SkyDoKu</h2>
+    <br>
+    A version of the Sudoku game built on SkyDB, where players can save their state of play as well as store their best score permanently on the blockchain platform.
+</p>
 
-### Description
+### Setup
 
-A simple Sudoku generator implemented in React. Select the number of initial cells to be filled in and click 'Generate'. Every generated board has a solution. Click the validate button to check for conflicts.
+```bash
+- Run:
+  cd sudoku
+  yarn install
+  yarn start
+
+- Build
+  yarn build
+
+```
+
+### Function
+
+- Get data of the most recent game saved and best score
+- Automatically generate random numbers for games
+- Save data about the state of the game playing
 
 ### Demo
 
-[arweave sudoku](https://arweave.net/9xuI7M-Gr8UFipDekHRXze-4eOV0fAm9NHMMRIM55K4)
+- [Live App](https://siasky.net/AACEJ_-S1jL7grlLqzmE0u6VX9U50uixV0PxNOYFGQmx8w)
+- [Video demo](https://siasky.net/fAYXplKpkLBsB7yTCyXeKJ4HAFcKw0hzR-7z0dE30QtA6Q)
